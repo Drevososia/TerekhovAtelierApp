@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TerekhovAtelierApp.ServicesEditPage"
+             Appearing="ContentPage_Appearing">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Введите код услуги" x:Name="enId"></Entry>
+            <Entry Placeholder="Введите название услуги" x:Name="enName"></Entry>
+            <Entry Placeholder="Введите описание услуги" x:Name="enDesc"></Entry>
+            <Entry Placeholder="Введите цену услуги" x:Name="enPrice"></Entry>
+            <Entry Placeholder="Введите код вида инструмента" x:Name="enIdType"></Entry>
+            <Button Text="Сохранить" x:Name="BtnSave" Clicked="BtnSave_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

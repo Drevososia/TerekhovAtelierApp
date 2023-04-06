@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TerekhovAtelierApp.OrdersEditPage"
+             Appearing="ContentPage_Appearing">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Введите код заказа" x:Name="enId"></Entry>
+            <Entry  x:Name="enIdCl"></Entry>
+            <Entry x:Name="enIdEmp"></Entry>
+            <Entry x:Name="enIdServ"></Entry>
+            <Entry Placeholder="Введите дату заказа" x:Name="enDate"></Entry>
+            <Entry x:Name="enIdStatus"></Entry>
+            <Entry Placeholder="Введите описание заказа" x:Name="enDesc"></Entry>
+            <Button Text="Сохранить" x:Name="BtnSave" Clicked="BtnSave_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TerekhovAtelierApp.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Button x:Name="BtnCLient" Clicked="BtnCLient_Clicked" Text="Клиенты"></Button>
+        <Button x:Name="BtnEmployee" Clicked="BtnEmployee_Clicked" Text="Работники"></Button>
+        <Button x:Name="BtnOrder" Clicked="BtnOrder_Clicked" Text="Заказы"></Button>
+        <Button x:Name="BtnService" Clicked="BtnService_Clicked" Text="Услуги"></Button>
+    </StackLayout>
+
+</ContentPage>
